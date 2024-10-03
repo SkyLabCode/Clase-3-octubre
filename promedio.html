@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        /*
+            Calcula la media de 3 números introducidos por teclado
+            Muestra el resultado en la consola
+            med : suma de los números divido entre la cantidad
+            de números
+        */
+
+        var num1 = parseFloat(prompt('Número 1'))
+        var num2 = parseFloat(prompt('Número 2'))
+        var num3 = parseFloat(prompt('Número 3'))
+
+        var med = (num1 + num2 + num3) / 3;
+
+        console.log('Media: ' + med);
+
+        //Sentencia condicional
+        //Si la media es mayor de 25 obtengo un mensaje:
+        // >  <  <=  >=  == !=
+
+        if(med > 25){
+            console.log('Es mayor de 25');
+        }
+
+    </script>
+</body>
+</html>
